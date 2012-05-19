@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wero</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <style type="text/css"> @import "/assets/jquery.timeentry.css"</style>
+  <script type="text/javascript" src="/assets/jquery.timeentry.js"></script>
+  
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= yield %>
+
+</body>
+</html>

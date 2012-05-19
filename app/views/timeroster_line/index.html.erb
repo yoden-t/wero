@@ -1,0 +1,22 @@
+<h1>TimerosterLine#index</h1>
+<p>Find me in app/views/timeroster_line/index.html.erb</p>
+
+
+<table>
+  <tr>
+    <th>Work date</th>
+    <th>Going work time</th>
+    <th>Quit work time</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @test.each do |time_roster| %>
+  <tr>
+    <td><%= time_roster.work_date %></td>
+    <td><%= time_roster.going_work_time %></td>
+    <td><%= time_roster.quit_work_time %></td>
+  </tr>
+<% end %>
+</table>

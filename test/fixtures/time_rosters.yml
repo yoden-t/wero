@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  work_date: 2012-05-19
+  going_work_time: 2012-05-19 15:12:10
+  quit_work_time: 2012-05-19 15:12:10
+
+two:
+  work_date: 2012-05-19
+  going_work_time: 2012-05-19 15:12:10
+  quit_work_time: 2012-05-19 15:12:10
